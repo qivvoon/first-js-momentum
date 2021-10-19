@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="shortcut icon"
+      sizes="16x16 32x32 64x64"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRBzduNEoBQRa1oRMzLwyY0XFiK6jx0DG_1XyIB2Q-U_HiYASWZqdXtxWD1ebnmq6RXWg&usqp=CAU"
+    />
+    <title>Welcome</title>
+  </head>
+  <body>
+    <div id="weather">
+      <span>🍀</span>
+      <span></span>
+    </div>
+    <h2 id="clock">00:00:00</h2>
+    <form id="login-form" class="hidden">
+      <input
+        required
+        maxlength="10"
+        type="text"
+        placeholder="What is your name?"
+      />
+      <button>Enter</button>
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+    <form id="todo-form">
+      <input required type="text" placeholder="Write a To Do :)" />
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
