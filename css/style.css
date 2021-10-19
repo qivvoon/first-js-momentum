@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+
+body {
+  font-family: "Do Hyeon", sans-serif;
+  height: 100vh;
+  background-image: url(https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F270ED4485230106434);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hidden {
+  display: none;
+}
+#login-form {
+  margin-bottom: 5px;
+}
+#login-form input {
+  border: var(--bornon);
+  padding: var(--pad);
+}
+#login-form input::placeholder {
+  font-size: large;
+  color: rgba(0, 0, 0, 0.3);
+}
+#login-form button {
+  border: var(--bornon);
+  padding: var(--pad);
+}
+#quote {
+  width: 100%;
+  position: absolute;
+  bottom: 5px;
+  padding: 5px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tododone {
+  background-color: pink;
+}
