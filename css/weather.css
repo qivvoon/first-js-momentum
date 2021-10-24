@@ -1,0 +1,21 @@
+@keyframes drop {
+  0% {
+    transform: translateY(-40px);
+  }
+  35% {
+    transform: none;
+  }
+  70% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: none;
+  }
+}
+.weatherani {
+  animation: drop 0.5s linear forwards;
+}
+#weather {
+  margin-top: 20px;
+  font-size: large;
+}
