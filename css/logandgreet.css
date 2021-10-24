@@ -1,0 +1,38 @@
+.hidden {
+  display: none;
+}
+#login-form {
+  margin-top: 36.85px;
+}
+#login-form input {
+  font-size: large;
+  border: none;
+  border-radius: var(--borderradious);
+  width: 220px;
+  height: 80px;
+  opacity: var(--loginopacity);
+}
+#login-form input:focus {
+  transition: 0.3s ease-in-out;
+  background-color: var(--greetingcolor);
+  outline: none;
+}
+#login-form input::placeholder {
+  font-size: larger;
+  text-align: center;
+}
+#login-form button {
+  font-size: large;
+  border: none;
+  padding: 20px;
+  border-radius: var(--borderradious);
+  width: 80px;
+  height: 80px;
+  opacity: var(--loginopacity);
+}
+#login-form button:focus {
+  background-color: var(--greetingcolor);
+}
+#greeting {
+  font-size: 55px;
+}
