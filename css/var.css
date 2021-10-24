@@ -1,4 +1,7 @@
 :root {
-  --bornon: none;
-  --pad: 20px;
+  --greetingcolor: rgb(255, 193, 203);
+  --loginopacity: 0.8;
+  --borderradious: 25px;
+  --borderradioustwo: 15px;
+  --todoformbtn: rgb(177, 215, 250);
 }
