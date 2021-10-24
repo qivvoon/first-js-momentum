@@ -26,7 +26,7 @@ function paintToDo(newToDo) {
     const li = document.createElement("li");
     li.id = newToDo.id;
     const span = document.createElement("span");
-    span.innerText = newToDo.text;
+    span.innerText = `▪ ${newToDo.text}`;
     const button = document.createElement("button");
     button.innerText = "✂";
     button.addEventListener("click", delectToDo);
@@ -61,3 +61,19 @@ if(savedToDos !== null) {
     toDos = parsedToDos;
     parsedToDos.forEach(paintToDo);
 }
+
+
+const toDoButton = document.querySelector("#todobutton");
+const toDoDiv = document.querySelector("#tododiv");
+const toDoDivClose = document.querySelector("#tododiv button");
+
+function gototodo() {
+    toDoDiv.className = "showtodoani";
+}
+
+function closetodo() {
+    toDoDiv.className = "closetodoani";
+}
+
+toDoButton.addEventListener("click", gototodo);
+toDoDivClose.addEventListener("click", closetodo);
