@@ -1,4 +1,3 @@
-
 const clock = document.querySelector("#clock");
 
 function getClock() {
@@ -11,3 +10,4 @@ function getClock() {
 
 getClock();
 setInterval(getClock, 1000);
+
