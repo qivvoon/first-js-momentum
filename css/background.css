@@ -1,0 +1,15 @@
+#background-div {
+  position: absolute;
+  left: 10px;
+  bottom: 20px;
+  z-index: 1;
+}
+#background-button {
+  font-size: 13px;
+  height: 43px;
+  width: 100px;
+  border-radius: 15px;
+  border: none;
+  opacity: var(--loginopacity);
+  background-color: white;
+}
