@@ -35,4 +35,8 @@
 }
 #greeting {
   font-size: 55px;
+  text-shadow: 1px 1px 10px var(--greetingshadowcolor),
+    -1px -1px 10px var(--greetingshadowcolor),
+    1px -1px 10px var(--greetingshadowcolor),
+    -1px 1px 10px var(--greetingshadowcolor);
 }
