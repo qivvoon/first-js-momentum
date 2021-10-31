@@ -1,5 +1,6 @@
 :root {
   --greetingcolor: rgb(255, 193, 203);
+  --greetingshadowcolor: white;
   --loginopacity: 0.8;
   --borderradious: 25px;
   --borderradioustwo: 15px;
